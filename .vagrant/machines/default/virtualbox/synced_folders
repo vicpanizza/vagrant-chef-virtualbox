@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/vpanizza/git/chef-solo-lamp","disabled":false,"__vagrantfile":true},"v-csc-2b713b959":{"id":"v-csc-2b713b959","guestpath":"/tmp/vagrant-chef/03be9edac53aa794365dc0a348f15e0f/cookbooks","hostpath":"C:/Users/vpanizza/git/chef-solo-lamp/cookbooks","disabled":false,"__vagrantfile":true}}}
