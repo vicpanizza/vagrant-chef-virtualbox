@@ -15,12 +15,12 @@ El proyecto esta constituido de los siguientes archivos:
 ```
 /Vagrantfile: permite iniciar todo el proceso de aprovisionamiento de la maquina virtual.
 
-	config.vm.box = "ubuntu/trusty64" --> selecciona la plantilla de maquina virtual
-	config.vm.network "private_network", ip: "10.2.1.25" --> permite configurar la dirección ip interna
+    config.vm.box = "ubuntu/trusty64" --> selecciona la plantilla de maquina virtual
+    config.vm.network "private_network", ip: "10.2.1.25" --> permite cnfigurar la dirección ip interna
 
 
-	config.vm.provision :chef_solo do |chef| --> conecta vagrant con chef solo para ejecutar las recetas
-   	chef.run_list = [ "tomcat::directories" ] --> lista de recetas que seran ejecutadas durante el aprovisionamiento
+    config.vm.provision :chef_solo do |chef| --> conecta vagrant con chef solo para ejecutar las recetas
+    chef.run_list = [ "tomcat::directories" ] --> lista de recetas que seran ejecutadas durante el aprovisionamiento
 
 ```
 
